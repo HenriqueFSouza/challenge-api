@@ -19,7 +19,7 @@ export async function SendMail(email: string, code: string | null, token: string
       from: env.MAILER_EMAIL,
       to: email,
       subject: '[RECUPERAÇÃO DE SENHA]',
-      html: `<p>Clique <a href='https://challenge-interface.onrender.com/nova-senha?token=${token}'>Aqui </a>para definir sua nova senha </p>
+      html: `<p>Clique <a href='https://challenge-interface.vercel.app/nova-senha?token=${token}'>Aqui </a>para definir sua nova senha </p>
       `
     })
 

@@ -16,7 +16,7 @@ app.register(fastifyJwt, {
 })
 
 app.register(cors, {
-  origin: 'https://challenge-interface.onrender.com',
+  origin: 'https://challenge-interface.vercel.app/',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 })
