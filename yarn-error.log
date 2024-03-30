@@ -1,0 +1,61 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add nodemailer
+
+PATH: 
+  C:\Users\HENRIQUE\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\HENRIQUE\bin;C:\Program Files\Microsoft\jdk-11.0.20.8-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin;C:\Users\HENRIQUE\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs;C:\Users\HENRIQUE\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\dotnet;C:\Program Files\Docker\Docker\resources\bin;C:\Users\HENRIQUE\AppData\Local\Programs\Python\Launcher;cType;C:\Users\HENRIQUE\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\HENRIQUE\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\HENRIQUE\AppData\Roaming\npm;C:\Users\HENRIQUE\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HENRIQUE\.dotnet\tools;C:\Users\HENRIQUE\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  18.18.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\HENRIQUE\Projetos\challenge-api\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "agendasua",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start:dev": "tsx watch src/server.ts",
+      "start": "node build/server.js",
+      "build": "tsup src --out-dir build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@rocketseat/eslint-config": "^2.1.0",
+      "@types/bcryptjs": "^2.4.6",
+      "@types/node": "^20.11.5",
+      "eslint": "^8.56.0",
+      "prisma": "^5.9.1",
+      "tsup": "^8.0.1",
+      "tsx": "^4.7.0",
+      "typescript": "^5.3.3"
+    },
+    "dependencies": {
+      "@fastify/cors": "^9.0.0",
+      "@fastify/jwt": "8.0.0",
+      "@prisma/client": "^5.9.1",
+      "bcryptjs": "^2.4.3",
+      "date-fns": "2.29.3",
+      "date-fns-tz": "2.0.0",
+      "dotenv": "16.4.1",
+      "fastify": "^4.25.2",
+      "moment-timezone": "0.5.44",
+      "zod": "^3.22.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
