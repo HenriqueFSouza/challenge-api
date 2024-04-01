@@ -3,12 +3,8 @@ import { env } from "@/env";
 
 
 export const transporter = nodemailer.createTransport({
-  host: 'smtp-mail.outlook.com',
+  host: 'smtp.umbler.com',
   port: 587,
-  tls: {
-    ciphers: "SSLv3",
-    rejectUnauthorized: false,
-  },
   secure: false,
   auth: {
     user: env.MAILER_EMAIL,
